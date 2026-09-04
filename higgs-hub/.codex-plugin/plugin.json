@@ -1,0 +1,33 @@
+{
+  "name": "higgs-hub",
+  "version": "1.0.0",
+  "description": "Your Gmail, Google Workspace, Outlook and Microsoft 365 accounts — mail, calendar, files, spreadsheets, tasks — through one audited connection, plus a guided getting-started skill.",
+  "author": { "name": "Higgs Hub", "email": "support@higgshub.pro", "url": "https://higgshub.pro" },
+  "homepage": "https://higgshub.pro",
+  "repository": "https://github.com/cogear/higgs-hub-plugins",
+  "license": "MIT",
+  "keywords": ["mcp", "email", "gmail", "outlook", "microsoft-365", "google-workspace", "calendar", "drive", "onedrive", "sheets", "tasks"],
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "Higgs Hub",
+    "shortDescription": "Your Gmail and Outlook — mail, calendar, files, sheets, tasks — from your agent.",
+    "longDescription": "Higgs Hub connects your Gmail/Google Workspace and Outlook/Microsoft 365 accounts to your agent through one OAuth connection. Read and search mail, manage calendars, find and open files in Drive and OneDrive, read and write Google Sheets and Excel, and manage Google Tasks and Microsoft To Do. Every action runs against your own accounts and is written to your audit log; Higgs Hub never displays your mail. Eight permission switches decide exactly what your agent may do.",
+    "developerName": "Higgs Hub",
+    "category": "Productivity",
+    "capabilities": ["Read", "Write"],
+    "websiteURL": "https://higgshub.pro",
+    "privacyPolicyURL": "https://higgshub.pro/privacy",
+    "termsOfServiceURL": "https://higgshub.pro/terms",
+    "defaultPrompt": [
+      "What's new in my inbox?",
+      "What's on my calendar this week?",
+      "Find a file for me",
+      "Walk me through getting started with Higgs Hub"
+    ],
+    "brandColor": "#F85030",
+    "composerIcon": "./assets/icon-120.png",
+    "logo": "./assets/logo.png",
+    "screenshots": []
+  }
+}

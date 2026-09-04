@@ -1,0 +1,6 @@
+{
+  "higgs-hub": {
+    "type": "http",
+    "url": "https://higgshub.pro/api/mcp/mcp"
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "name": "higgs-hub-plugins",
+  "description": "Higgs Hub for Claude Code: your Gmail and Outlook accounts — mail, calendar, files, spreadsheets, tasks — through one audited connection, plus a guided getting-started skill.",
+  "owner": {
+    "name": "Higgs Hub"
+  },
+  "plugins": [
+    {
+      "name": "higgs-hub",
+      "source": "./higgs-hub",
+      "description": "Your Gmail, Google Workspace, Outlook and Microsoft 365 accounts — mail, calendar, files, spreadsheets, tasks — through one audited connection, plus a guided getting-started skill.",
+      "version": "1.0.0",
+      "category": "productivity",
+      "homepage": "https://higgshub.pro"
+    }
+  ]
+}

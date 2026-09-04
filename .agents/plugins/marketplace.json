@@ -1,0 +1,12 @@
+{
+  "name": "higgs-hub-plugins",
+  "interface": { "displayName": "Higgs Hub" },
+  "plugins": [
+    {
+      "name": "higgs-hub",
+      "source": { "source": "local", "path": "./higgs-hub" },
+      "policy": { "installation": "AVAILABLE", "authentication": "ON_INSTALL" },
+      "category": "Productivity"
+    }
+  ]
+}
