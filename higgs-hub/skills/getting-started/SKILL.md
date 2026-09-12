@@ -57,4 +57,4 @@ Offer this; it matters most to whoever set the workspace up.
 Finish by asking what they'd like to do first for real. Offer to install this walkthrough and their workspace's other skills with `get_skill`, so they are commands here rather than something to go looking for — and say they can run this one again any time.
 
 <!-- Higgs Hub skill getting-started v0 · General · needs: Read my email -->
-<!-- Generated from docs/skills/getting-started.md by scripts/build-plugin-skills.ts for higgs-hub 1.0.0. Edit the source, then run npm run plugins:build. -->
+<!-- Generated from docs/skills/getting-started.md by scripts/build-plugin-skills.ts for higgs-hub 1.0.1. Edit the source, then run npm run plugins:build. -->
