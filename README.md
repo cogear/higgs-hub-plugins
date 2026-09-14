@@ -17,6 +17,8 @@ The first time, run `/mcp`, pick **higgs-hub** and choose *Authenticate*. A brow
 
 If you connected earlier with `claude mcp add higgs-hub`, remove that copy first so there is one connection: `claude mcp remove higgs-hub`.
 
+Already use the Higgs Hub connector on claude.ai? Claude Code picks it up when it is signed in with the same Claude account, so you only need this plugin for the getting-started command. Don't use both, or Higgs Hub shows up twice.
+
 ## Codex and ChatGPT
 
 ```
