@@ -50,11 +50,11 @@ Offer this; it matters most to whoever set the workspace up.
 - **Settings → "What your assistant may do"**: the eight switches for their own agent, all on by default — reading mail, sending, drafting, calendar, spreadsheets, tasks, reading files, sharing files. Turning one off just makes that thing refuse; everything else keeps working.
 - **Members**: invite people; each member's agent gets its own switches, and per mailbox a level — hidden, read-only, or read & write — plus which folders and calendars it may touch. New members start with everything on. Owners and admins manage this.
 - **Agents**: where each AI agent connects — pick yours there and follow its steps. Claude uses a connector (Settings → Connectors, paste the URL), which also carries into Claude Code when it is signed in with the same Claude account; the Claude plugin is optional and adds this walkthrough as a command. ChatGPT uses a connector too, Codex installs the Higgs Hub plugin, and OpenClaw and Hermes Agent take the URL in their config and sign in with OAuth from the terminal. API keys are for clients that can't do OAuth — scoped to the workspace, shown once, revocable, and they can never disconnect a mailbox.
-- **Skills**: the Higgs Hub library by vertical, "Add all" for a whole vertical, or write the workspace's own. Library skills follow Higgs Hub's updates; fork one to make it theirs.
+- **Skills**: one pack per job a business does — sales, production, customer service, purchasing, bookkeeping, marketing, management — with roofing and property management on top. Open a pack and add all of it, or one skill at a time. **My skills** is the list their agents are actually handed. Library skills follow Higgs Hub's updates; forking one stops that.
 - **Audit log**: every call — successful, refused or failed — plus connects, consents, key, membership and billing events. Never message content. Downloadable as CSV.
 - **Billing**: plans are per workspace and include mailboxes plus a monthly allowance of agent actions; seats are unlimited.
 
 Finish by asking what they'd like to do first for real. Offer to install this walkthrough and their workspace's other skills with `get_skill`, so they are commands here rather than something to go looking for — and say they can run this one again any time.
 
 <!-- Higgs Hub skill getting-started v0 · General · needs: Read my email -->
-<!-- Generated from docs/skills/getting-started.md by scripts/build-plugin-skills.ts for higgs-hub 1.0.4. Edit the source, then run npm run plugins:build. -->
+<!-- Generated from docs/skills/getting-started.md by scripts/build-plugin-skills.ts for higgs-hub 1.0.5. Edit the source, then run npm run plugins:build. -->

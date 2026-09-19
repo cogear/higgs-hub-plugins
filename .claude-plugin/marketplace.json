@@ -9,7 +9,7 @@
       "name": "higgs-hub",
       "source": "./higgs-hub",
       "description": "Your Gmail, Google Workspace, Outlook and Microsoft 365 accounts — mail, calendar, files, spreadsheets, tasks — through one audited connection, plus a guided getting-started skill.",
-      "version": "1.0.4",
+      "version": "1.0.5",
       "category": "productivity",
       "homepage": "https://higgshub.pro"
     }
